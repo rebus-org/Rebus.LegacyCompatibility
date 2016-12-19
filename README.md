@@ -10,6 +10,8 @@ Provides (EXPERIMENTAL!) legacy compatibility for [Rebus](https://github.com/reb
 
 "Rebus 1" (i.e. Rebus versions <= 0.84.0) had slightly different headers and some less than perfect defaults regarding message serialization.
 
+Rebus 2 is much better :smile:
+
 This makes Rebus 1 and Rebus 2 (Rebus versions >= 0.90.0) non-compatible.
 
 Rebus 2 is so extensible though that it can be brought to be pretty close to wire-compatible with Rebus 1 by taking advantage of its message pipelines (and some more tricks).
